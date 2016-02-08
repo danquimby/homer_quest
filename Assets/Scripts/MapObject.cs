@@ -8,6 +8,8 @@ public class MapObject : MonoBehaviour {
 	public Vector2 SizeBlock = new Vector2 (24, 24);
 	public Vector2 vec = new Vector2 (0, 0);
 	public Vector2 offset = new Vector2 (0, 0);
+	public Vector2 position = new Vector2 (0, 0);
+
 	SpriteRenderer render;
 	int count = 0;
 	public int NumberTiled;
@@ -36,7 +38,7 @@ public class MapObject : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown ("space")) {
-
+			transform.position = new Vector2 (transform.position.x + 1, 0);
 			count++;
 			render.sprite = Sprite.Create (pixelTexture, calculation (count), vec, 24);
 		}

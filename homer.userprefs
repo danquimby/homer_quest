@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MapGenerate.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MapObject.cs">
     <Files>
-      <File FileName="Assets\Scripts\MapGenerate.cs" Line="6" Column="26" />
+      <File FileName="Assets\Scripts\MapObject.cs" Line="23" Column="54" />
+      <File FileName="Assets\Scripts\MapGenerate.cs" Line="7" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
